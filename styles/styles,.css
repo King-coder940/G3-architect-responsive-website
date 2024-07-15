@@ -1,0 +1,50 @@
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .text-gray{
+    color: #424242;
+
+  }
+  .text-light-gray{
+    color: #727272;
+  }
+  .bg-primary{
+    color: rgba(255, 144, 14, 0.1);
+  }
+  .brand{
+    color: #131313;
+    font-size: 25px;
+    margin-left: 100px;
+
+  }
+  
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  .display-flex{
+    display: flex;
+  }
+  .linkers{
+    font-weight:500;
+    font-size: 16px;
+    margin-right: 150px;
+  
+  
+   }
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+  }
+.nav-link{
+  text-decoration: none;
+ 
+  
+}
+  
+ 
