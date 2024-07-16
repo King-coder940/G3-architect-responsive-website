@@ -141,11 +141,27 @@ main> section{
   }
 
   @media screen and (max-width:576px) {
-    .navbar .linkers{
+    .navbar, 
+    .linkers,
+    .teams{
       flex-direction: column;
     }
+    .team-image-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .features{
+      margin: 20px;
+    }
+    .linkers{
+      margin: 0 auto;
+      
+    }
+    .brand{
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
 
-  }
+  
     
   
   
