@@ -14,13 +14,16 @@
   .text-primary{
     color:#131313;
   }
+  .text-highlight{
+    color:#FF900E
+  }
   .bg-primary{
     color: rgba(255, 144, 14, 0.1);
   }
   .brand{
     font-weight: bold;
     color: #131313;
-    font-size: 1.57rem;
+    font-size: 1.8rem;
     margin-left: 100px;
 
   }
@@ -51,21 +54,30 @@
   
 }
 .banner-content{
-  max-width: 832px;
-  margin:20px 370px 20px 330px;
+  max-width: 830px;
+  margin: 0px auto;
   text-align: center;
+  margin-bottom: 20px;
 }
 .btn1{
   background-color: #FF900E;
   border-radius: 5px;
   border: none;
-  padding: 21px 24px 20px 25px;
+  padding: 17px 20px 17px 20px;
   cursor: pointer;
   color: white;
+
 
 }
 .btn1:hover{
   background-color: rgb(160, 160, 159);
+}
+main{
+  max-width: 1440px;
+  margin: 0px auto;
+}
+main> section{
+  margin-top: 130px;
 }
 .banner-title{
   font-weight: 700;
@@ -82,14 +94,64 @@
 
   }
   .img1{
-    width: 80%;
-    margin-left: 120px;
-    margin-right: 80px;
-    
+    width: 100%;
+    margin: 0px auto;
   }
   .banner{
     max-width: 1440px;
   }
+
+  /* feature styles */
+  .teams{
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+  }
+  .team-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+  }
+  .features{
+    max-width: 537px;
+    
+  }
+  .feature-title{
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+  }
+  .feature-description{
+    word-spacing: 7px;
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 400 ;
+    margin-bottom: 32px;
+
+
+  }
+  #style1{
+    font-weight: 500;
+
+  }
+  #style2{
+    font-weight: 700;
+  }
+  #style3{
+    font-weight: 700;
+  }
+
+  @media screen and (max-width:576px) {
+    .navbar .linkers{
+      flex-direction: column;
+    }
+
+  }
+    
+  
+  
+    
+
+
   
 
 
