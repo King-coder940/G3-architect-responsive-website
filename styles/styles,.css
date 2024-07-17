@@ -254,6 +254,8 @@ main> section{
     .team-image-container, 
     .facts-container{
       grid-template-columns: repeat(1,1fr);
+      justify-items: center;
+      gap: 24px;
     }
     .features{
      margin: 0px 100px;
@@ -267,10 +269,8 @@ main> section{
       margin: 0 auto;
       margin-bottom: 20px;
     }
-    .facts-container{
-      justify-items: center;
-      gap: 24px;
-    }
+    
+     
     .icon-cards{
       grid-template-columns: repeat(2,50px) ;
       
@@ -287,19 +287,17 @@ main> section{
       }
 
     
-    
-      
-    
-    
   }
     /* medium device */
-    @media screen  and (min-width:576px) and (max-width:992px)  {
+    @media screen and (min-width:576px) and (max-width:992px) {
       .teams{
         flex-direction: column;
       }
       .facts-container{
         grid-template-columns: repeat(2,1fr);
         gap: 24px;
+      
+        
       }
       .facts-mg{
         max-width: max-content;
@@ -313,10 +311,12 @@ main> section{
       .features-mid{
         max-width: 80%;
       }
-      
-     
-        
+    
     }
+      
+    
+      
+    
 
   
     
